@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root{
+    --bg-color:250 250 250;
+    --surface-color:19 37 46;
+    --light-surface:255 255 255;
+    --darker-bg:242 242 242;
+    --primary-color:42 238 123;
+    --cta-color:48 171 233;
+}
+
+body,*{
+    font-family: 'Peyda(FaNum)';
+}

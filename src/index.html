@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/output.css">
+    <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
+    <title>دکتر ایمان ذباح | استاد دانشگاه</title>
+</head>
+<body>
+    <header class="bg-lightSurface container sticky top-10 z-20 rounded-2xl flex items-center justify-center h-[100px] shadow-xl">
+        <nav class="flex items-center justify-center gap-10">
+            <a href="" class="px-5 py-2 opacity-60">جزوه ها</a>
+            <a href="" class="px-5 py-2 opacity-60">آموزش ها</a>
+            <a href="" class="px-5 py-2 opacity-60">فایل های تدریس</a>
+            <a href="" class="px-5 py-2 opacity-60">فیلم های آموزشی</a>
+        </nav>
+    </header>
+    <main class="-mt-[100px]">
+        <div class="bg-surface w-full h-[120px]"></div>
+        <section class="bg-bgColor flex flex-col py-[100px]">
+            <div class="container flex flex-col gap-[100px]">
+                <div class="w-full relative bg-surface rounded-3xl flex items-center justify-center py-[120px] gap-[200px]">
+                    <div class="flex flex-col gap-5 text-white">
+                        <strong class="text-6xl font-black">زمان برای یادگیری ،<span class="text-primary">همین حالا است</span></strong>
+                        <span class="text-4xl opacity-70">زمان برای یادگیری ،همین حالا است</span>
+                    </div>
+                    <div class="flex relative size-[130px] rounded-full border-4 border-white items-center">
+                        <img src="./assets/avatar.png" alt="avatar" class="w-full h-full rounded-full object-cover">
+                        <span class="bg-white text-surface px-4 py-2 rounded-full absolute left-0 -translate-x-1/2 rotate-6 translate-y-4">
+                            ایمان ذباح
+                        </span>
+                    </div>
+                    <div class="w-2/5 absolute bottom-0 translate-y-1/2 ring-[12px] ring-white/10 rounded-3xl flex items-center p-6 bg-lightSurface gap-5 shadow-md">
+                        <svg class="pointer-events-none" width="28" height="29" viewBox="0 0 28 29" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <g opacity="0.5">
+                                <path d="M20.0667 20.567L23.3334 23.8337M22.4001 14.0337C22.4001 9.13673 18.4303 5.16699 13.5334 5.16699C8.63649 5.16699 4.66675 9.13673 4.66675 14.0337C4.66675 18.9306 8.63649 22.9003 13.5334 22.9003C18.4303 22.9003 22.4001 18.9306 22.4001 14.0337Z" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+                            </g>
+                        </svg>
+                        <input type="text" class="flex-1 bg-transparent focus:outline-none text-2xl placeholder-current/50" placeholder="دنبال چه آموزشی هستید؟">
+                    </div>
+                </div>
+                <div class="flex flex-col w-full gap-20">
+                    <div class="flex flex-col gap-6 items-center">
+                        <img src="./assets/feather.png" alt="feather" class="w-[100px]">
+                        <strong class="font-extrabold text-5xl opacity-80">محتوای آموزشی</strong>
+                        <span class="text-2xl opacity-50">آموزش هایی که میتوانید همین حالا شروع کنید</span>
+                    </div>
+                    <div  class="flex flex-col w-full gap-6 items-center relative">
+                        <div x-data="{items:[1,2,3,4]}" class="w-full flex items-center justify-between z-[1]">
+                            <template x-for="item in items">
+                                <div class="bg-lightSurface p-3 rounded-xl flex items-center gap-6 shadow-md">
+                                    <img src="./assets/course.png" alt="course" class="size-20 rounded-lg object-cover">
+                                    <strong class="text-2xl opacity-50">هوش مصنوعی</strong>
+                                </div>
+                            </template>
+                        </div>
+                        <div class="flex items-center justify-center gap-4 z-[1]">
+                            <button class="size-14 rounded-xl grid place-items-center bg-lightSurface/10 text-white">
+                                <svg class="rotate-180" width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M13.3333 21.333L8 15.9997M8 15.9997L13.3333 10.6663M8 15.9997L24 15.9997" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </button>
+                            <button class="size-14 rounded-xl grid place-items-center bg-lightSurface/10 text-white">
+                                <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M13.3333 21.333L8 15.9997M8 15.9997L13.3333 10.6663M8 15.9997L24 15.9997" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </button>
+                        </div>
+                        <div class="w-1/2 h-[200px] rounded-t-[64px] rounded-b-[200px] bg-surface absolute z-0 top-0"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="bg-darkerBg py-[150px] flex flex-col">
+            <div class="container flex flex-col gap-16">
+                <div class="flex flex-col gap-6">
+                    <strong class="text-5xl opacity-80">آخرین آموزش ها</strong>
+                    <span class="text-2xl opacity-50">آموزش هایی که میتوانید همین حالا شروع کنید</span>
+                </div>
+                <div class="flex gap-9 w-full">
+                    <div class="flex-1">
+                        <div class="w-full aspect-video rounded-2xl overflow-hidden ring-[12px] ring-white/10">
+                            <img src="./assets/poster.png" alt="poster" class="w-full h-full object-cover">
+                        </div>
+                    </div>
+                    <div class="w-1/4 flex flex-col gap-6">
+                        <span class="text-2xl opacity-30">درس مورد نظر را انتخاب کنید:</span>
+                        <div class="w-full flex flex-col gap-4">
+                            <button class="w-full p-6 flex items-center justify-between rounded-xl bg-lightSurface">
+                                <strong class="text-3xl opacity-80">ساختمان داده</strong>
+                                <svg width="32" height="33" viewBox="0 0 32 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <g opacity="0.6">
+                                    <path d="M9.33325 13.833L15.9999 19.1663L22.6666 13.833" stroke="black" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </g>
+                                </svg>
+                            </button>
+                        </div>
+                        <div class="w-full flex flex-col gap-4">
+                            <button class="w-full p-6 flex items-center justify-between rounded-xl bg-lightSurface">
+                                <strong class="text-3xl text-cta">ساختمان داده</strong>
+                                <svg class="rotate-180" width="32" height="33" viewBox="0 0 32 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <g opacity="0.6">
+                                    <path d="M9.33325 13.833L15.9999 19.1663L22.6666 13.833" stroke="black" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </g>
+                                </svg>
+                            </button>
+                            <ul class="flex p-6 flex-col gap-4 bg-lightSurface w-full rounded-xl">
+                                <li class="w-full flex">
+                                    <button class="flex w-full items-center justify-between">
+                                        <span class="flex items-center gap-4">
+                                            <span class="size-3 rounded-full bg-cta drop-shadow-lg"></span>
+                                            <span class="font-semibold text-2xl text-cta">الگوریتم مرتب‌ سازی</span>
+                                        </span>
+                                        <span class="text-xl opacity-30 font-semibold">15:24</span>
+                                    </button>
+                                </li>
+                                <li class="w-full flex">
+                                    <button class="flex w-full items-center justify-between">
+                                        <span class="flex items-center gap-4">
+                                            <span class="size-3 rounded-full bg-black opacity-10"></span>
+                                            <span class="font-semibold text-2xl opacity-50">الگوریتم مرتب‌ سازی</span>
+                                        </span>
+                                        <span class="text-xl opacity-30 font-semibold">15:24</span>
+                                    </button>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="bg-bgColor py-[150px] flex flex-col">
+            <div class="container flex flex-col items-center gap-16 relative">
+                <div class="flex flex-col items-center gap-6">
+                    <strong class="text-5xl opacity-80">جزوه های آموزشی</strong>
+                    <span class="text-2xl opacity-50">آموزش هایی که میتوانید همین حالا شروع کنید</span>
+                </div>
+                <div class="flex flex-col gap-10 w-full">
+                    <div x-data="{items:[1,2,3,4]}" class="w-full flex items-center justify-between">
+                        <template x-for="item in items">
+                            <div class="flex bg-lightSurface flex-col gap-6 p-4 w-[350px] rounded-2xl">
+                                <div class="w-full aspect-[4/3] relative">
+                                    <img src="./assets/course.png" alt="course" class="w-full h-full object-cover rounded-lg">
+                                    <span class="rounded-lg absolute left-2 bottom-2 z-[2] bg-lightSurface p-2">
+                                        <img src="./assets/pdf-icon.png" alt="pdf" class="w-14">
+                                    </span>
+                                </div>
+                                <div class="flex flex-col items-center gap-10">
+                                    <div class="flex flex-col items-center gap-4">
+                                        <strong class="text-2xl">پایتون</strong>
+                                        <div class="flex gap-2 items-center">
+                                            <span class="px-2 py-1 rounded-lg border opacity-40">power point</span>
+                                            <span class="px-2 py-1 rounded-lg border opacity-40">8.3 MB</span>
+                                        </div>
+                                    </div>
+                                    <button class="w-full rounded-xl py-2.5 flex items-center justify-center gap-2.5 text-cta border border-cta">
+                                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M8.01562 15.784H5.21429C3.43908 15.784 2 14.5585 2 12.7614C2 10.9644 3.43908 9.50762 5.21429 9.50762C5.335 9.50762 5.45417 9.51436 5.57143 9.52748V9.50762H5.61564C5.58646 9.27074 5.57143 9.02942 5.57143 8.78455C5.57143 5.58983 8.1298 3 11.2857 3C13.4228 3 15.2859 4.1876 16.2661 5.94642C16.5056 5.91075 16.7507 5.89227 17 5.89227C19.7614 5.89227 22 8.15838 22 10.9538C22 13.5036 20.1374 15.3819 17.7143 15.7328H15.125M11.6429 9.86915V21M11.6429 21L9.10937 18.5008M11.6429 21L14.1094 18.5008" stroke="#30ABE9" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                        </svg>
+                                        <span class="text-2xl">دانلود</span>
+                                    </button>
+                                </div>
+                            </div>
+                        </template>
+                    </div>
+                    <div class="flex items-center justify-center gap-4 z-[1]">
+                        <button class="size-14 rounded-xl grid place-items-center bg-lightSurface shadow-md text-black">
+                            <svg class="rotate-180" width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M13.3333 21.333L8 15.9997M8 15.9997L13.3333 10.6663M8 15.9997L24 15.9997" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </button>
+                        <button class="size-14 rounded-xl grid place-items-center bg-lightSurface shadow-md text-black">
+                            <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M13.3333 21.333L8 15.9997M8 15.9997L13.3333 10.6663M8 15.9997L24 15.9997" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+                <div class="absolute inset-x-0 h-[200px] bg-surface bottom-5 rounded-3xl -z-[1]"></div>
+            </div>
+        </section>
+        <section class="bg-darkerBg py-[150px] flex flex-col">
+            <div class="container flex flex-col gap-10 relative">
+                <div class="w-full flex items-end justify-between z-[2] px-10">
+                    <div class="flex flex-col gap-6 text-white">
+                        <strong class="text-5xl opacity-80">گروه های آموزشی</strong>
+                        <span class="text-2xl opacity-50">آموزش هایی که میتوانید همین حالا شروع کنید</span>
+                    </div>
+                    <div class="flex items-center justify-center gap-4 z-[1]">
+                        <button class="size-14 rounded-xl grid place-items-center bg-lightSurface/10 text-white">
+                            <svg class="rotate-180" width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M13.3333 21.333L8 15.9997M8 15.9997L13.3333 10.6663M8 15.9997L24 15.9997" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </button>
+                        <button class="size-14 rounded-xl grid place-items-center bg-lightSurface/10 text-white">
+                            <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M13.3333 21.333L8 15.9997M8 15.9997L13.3333 10.6663M8 15.9997L24 15.9997" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+                <div class="flex flex-col gap-10 w-full z-[2]">
+                    <div x-data="{items:[1,2,3,4]}" class="w-full flex items-center justify-between">
+                        <template x-for="item in items">
+                            <div class="flex bg-lightSurface flex-col items-center gap-6 p-6 w-[320px] rounded-2xl">
+                                <img src="./assets/course.png" alt="course" class="size-[100px] rounded-full object-cover">
+                                <div class="flex flex-col items-center gap-3">
+                                    <strong class="text-2xl">گروه آموزشی پایتون</strong>
+                                    <span class="opacity-40">64 عضو</span>
+                                </div>
+                                <button class="w-full rounded-xl py-2.5 flex items-center justify-center gap-2.5 text-cta border border-cta">
+                                    <span class="text-2xl">ملحق شدن</span>
+                                </button>
+                            </div>
+                        </template>
+                    </div>
+                </div>
+                <div class="absolute inset-x-0 h-[200px] bg-surface -top-10 rounded-3xl z-0"></div>
+            </div>
+        </section>
+    </main>
+    <footer class="m-8 mt-0 bg-surface py-[100px] rounded-3xl flex flex-col items-center gap-14">
+        <div class="flex relative size-[130px] rounded-full border-4 border-white items-center">
+            <img src="./assets/avatar.png" alt="avatar" class="w-full h-full rounded-full object-cover">
+            <span class="bg-white text-surface px-4 py-2 rounded-full absolute left-0 -translate-x-1/2 rotate-6 translate-y-4">
+                ایمان ذباح
+            </span>
+        </div>
+        <div class="flex flex-col items-center gap-8">
+            <strong class="text-3xl text-white">راه های ارتباطی</strong>
+            <div class="p-5 rounded-2xl border flex items-center gap-4">
+                <div class="bg-lightSurface flex px-8 py-5 rounded-xl gap-2">
+                    <span dir="ltr">imanzabbah@gmail.com</span>
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M4.6875 6.75L11.3596 11.5403C11.7449 11.8168 12.2551 11.8168 12.6404 11.5403L19.3125 6.75M5.25 19H18.75C19.9926 19 21 17.9553 21 16.6667V7.33333C21 6.04467 19.9926 5 18.75 5H5.25C4.00736 5 3 6.04467 3 7.33333V16.6667C3 17.9553 4.00736 19 5.25 19Z" stroke="#30ABE9" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                </div>
+                <div class="bg-lightSurface flex px-8 py-5 rounded-xl gap-2">
+                    <span dir="ltr">0915 761 1398</span>
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M21 19V17.3541C21 16.5363 20.5021 15.8008 19.7428 15.4971L17.7086 14.6835C16.7429 14.2971 15.6422 14.7156 15.177 15.646L15 16C15 16 12.5 15.5 10.5 13.5C8.5 11.5 8 9 8 9L8.35402 8.82299C9.28438 8.35781 9.70285 7.25714 9.31654 6.29136L8.50289 4.25722C8.19916 3.4979 7.46374 3 6.64593 3H5C3.89543 3 3 3.89543 3 5C3 13.8366 10.1634 21 19 21C20.1046 21 21 20.1046 21 19Z" fill="#30ABE9"/>
+                    </svg>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
