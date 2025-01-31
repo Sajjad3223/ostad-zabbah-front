@@ -20,7 +20,8 @@
         <div class="bg-surface w-full h-[120px]"></div>
         <section class="bg-bgColor flex flex-col py-10 lg:py-[100px]">
             <div class="container flex flex-col gap-[100px]">
-                <div class="w-full relative bg-surface rounded-3xl flex flex-col-reverse lg:flex-row items-center justify-center py-10 lg:py-[120px] gap-10 lg:gap-[200px]">
+                <div class="w-full relative bg-surface rounded-3xl flex flex-col-reverse lg:flex-row items-center justify-center py-10 lg:py-[120px] gap-10 lg:gap-[200px]"
+                style="background-image: url(./assets/pattern1.png); background-size: contain; background-blend-mode: multiply;">
                     <div class="w-full lg:w-2/5 lg:absolute bottom-0 translate-y-1/2 ring-[12px] ring-white/10 rounded-3xl flex items-center p-6 bg-lightSurface gap-5 shadow-md">
                         <svg class="pointer-events-none" width="28" height="29" viewBox="0 0 28 29" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <g opacity="0.5">
@@ -67,7 +68,9 @@
                                 </svg>
                             </button>
                         </div>
-                        <div class="w-1/2 h-[200px] rounded-t-[64px] rounded-b-[200px] bg-surface absolute z-0 top-0"></div>
+                        <div class="w-1/2 h-[200px] rounded-t-[64px] rounded-b-[200px] bg-surface absolute z-0 top-0"
+                        style="background-image: url(./assets/pattern2.png); background-size: cover; background-blend-mode: multiply;"
+                        ></div>
                     </div>
                 </div>
             </div>
@@ -216,7 +219,9 @@
                         </template>
                     </div>
                 </div>
-                <div class="absolute inset-x-0 h-[200px] bg-surface -top-10 rounded-3xl z-0"></div>
+                <div class="absolute inset-x-0 h-[200px] bg-surface -top-10 rounded-3xl z-0"
+                style="background-image: url(./assets/pattern3.png); background-size: cover; background-blend-mode: multiply;"
+                ></div>
             </div>
         </section>
     </main>
@@ -263,8 +268,40 @@
                         <button :disabled="tab === 'skills'" @click="tab = 'skills'" :class="['tab',tab === 'skills' && 'activeTab']">مهارت ها</button>
                     </div>
                     <hr class="w-full">
-                    <div class="flex flex-col">
-
+                    <div x-show="tab === 'resume'" class="flex flex-col gap-3">
+                        <div class="flex flex-col gap-1 px-4 py-3 w-full bg-bgColor rounded-lg">
+                            <strong>تدریس در دانشگاه</strong>
+                            <span class="text-sm opacity-60">سال 1385 - تاکنون</span>
+                        </div>
+                        <div class="text-sm opacity-70">
+                            توضیحات درباره عنوان 
+                        </div>
+                    </div>
+                    <div x-show="tab === 'honors'" class="flex flex-col gap-3">
+                        <div class="flex flex-col gap-1 px-4 py-3 w-full bg-bgColor rounded-lg">
+                            <strong>رتبه برتر در آزمون مهندسین کامپیوتر</strong>
+                            <span class="text-sm opacity-60">سال 1384</span>
+                        </div>
+                    </div>
+                    <div x-show="tab === 'skills'" class="flex flex-col gap-3">
+                        <div class="flex flex-col gap-1 px-4 py-3 w-full bg-bgColor rounded-lg">
+                            <strong>هوش مصنوعی</strong>
+                            <div class="flex items-center gap-2">
+                                <div class="flex-1 bg-cta/20 rounded-full h-2 flex">
+                                    <div class="h-full rounded-full bg-cta" style="width: 67%;"></div>
+                                </div>   
+                                <span class="text-sm">67%</span>
+                            </div>
+                        </div>
+                        <div class="flex flex-col gap-1 px-4 py-3 w-full bg-bgColor rounded-lg">
+                            <strong>پایتون</strong>
+                            <div class="flex items-center gap-2">
+                                <div class="flex-1 bg-cta/20 rounded-full h-2 flex">
+                                    <div class="h-full rounded-full bg-cta" style="width: 78%;"></div>
+                                </div>   
+                                <span class="text-sm">78%</span>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -775,7 +812,8 @@
             </div>
         </section>
     </main>
-    <footer class="hidden m-8 mt-0 bg-surface py-[100px] rounded-3xl lg:flex flex-col items-center gap-14">
+    <footer class="hidden m-8 mt-0 bg-surface py-[100px] rounded-3xl lg:flex flex-col items-center gap-14"
+    style="background-image: url(./assets/pattern4.png); background-size: contain; background-blend-mode: multiply;">
         <div class="flex relative size-[130px] rounded-full border-4 border-white items-center">
             <img src="./assets/avatar.png" alt="avatar" class="w-full h-full rounded-full object-cover">
             <span class="bg-white text-surface px-4 py-2 rounded-full absolute left-0 -translate-x-1/2 rotate-6 translate-y-4">
